@@ -1,0 +1,24 @@
+{
+  "name": "initdesign",
+  "version": "1.0.0",
+  "description": "Readymade structure for design with bootstrap, jquery, fontawesome icons",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kvkrishna1991/initdesign.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kvkrishna1991/initdesign/issues"
+  },
+  "homepage": "https://github.com/kvkrishna1991/initdesign#readme",
+  "dependencies": {
+    "bootstrap": "^3.3.6",
+    "font-awesome": "^4.6.3",
+    "jquery": "^3.0.0"
+  }
+}

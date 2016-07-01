@@ -1,9 +1,47 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title></title>
+	<title>BootDesign</title>
+	<link rel="stylesheet" type="text/css" href="node_modules/bootstrap/dist/css/bootstrap.min.css"/>
+	<link rel="stylesheet" type="text/css" href="node_modules/font-awesome/css/font-awesome.min.css"/>
+	<script type="text/javascript" src="node_modules/jquery/dist/jquery.min.js"></script>
+	<script type="text/javascript" src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
 </head>
 <body>
-	
+	<div class="container">
+		<div class="row"><br>
+			<div class="col-sm-12">
+				<p>
+					If bootstrap is working, you have to see a success styled button for <strong>Bootstrap working..!</strong>
+				</p>
+				<button class="btn btn-success"><i></i>Bootstrap working..!</button>
+			</div>
+			<div class="clearfix"></div><br>
+			<div class="col-sm-12">
+				<p>
+					If jquery is working, you have to see a <strong>'jQuery working..!'</strong> text in the below textbox
+				</p>
+				<br>
+				<div class="col-sm-4">
+					<input id="jquerytest" class="form-control col-sm-4"/>
+				</div> 
+				<div class="clearfix"></div><br>
+				<button class="btn btn-success"><i></i>jQuery tested..!</button>
+			</div><br>
+			<div class="col-sm-12">
+				<p>
+					If fontawesome is working, you have to see a <strong>big green flag..!</strong>
+				</p>
+				Font-awesome working..! 
+				<span class="text-success" style="font-size:30px;"> <i class="fa fa-font-awesome" aria-hidden="true"></i></span>&nbsp;
+				<p class="text-success"  style="font-size:30px;">Good to go..! </p>
+			</div>
+			<div class="clearfix"></div><br>
+		</div>
+	</div>
+	<div id="test"></div>
+	<script type="text/javascript">
+	$('#jquerytest').val('jQuery working..!');
+	</script>
 </body>
 </html>
